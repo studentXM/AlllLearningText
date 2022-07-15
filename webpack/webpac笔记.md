@@ -177,7 +177,7 @@ module:{
             {
                 test:/\.css$/,//如果要加载require或import文件时css文件的话
                 // 会从右向左处理css文件,loader时函数
-                use:['style-loader','css-loader']
+                use:['style-loader' , 'css-loader']
             }
         ]
     }
